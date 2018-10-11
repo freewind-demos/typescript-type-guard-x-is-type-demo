@@ -1,19 +1,6 @@
-TypeScript tsconfig.json Demo
-============================
+TypeScript Type Guard "x is type" Demo
+======================================
 
-`tsconfig.json`是typescript项目的说明文件，指定`tsc`所需要的各个参数。
+通过`x is type`的语法，我们可以定义一个 type guard，它用于在分支中自动切换到正确的类型：
 
-```
-npm install
-npm run tsc
-```
-
-或者使用`ts-node`:
-
-```
-npm run demo
-```
-
-Resources
----------
-- tsconfig详解：<https://www.typescriptlang.org/docs/handbook/tsconfig-json.html>
+![demo](./images/demo.jpg)
